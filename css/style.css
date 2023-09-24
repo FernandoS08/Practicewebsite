@@ -1,0 +1,52 @@
+body {
+    background-color: #000; 
+    font-size: 21px;
+    color: chartreuse;
+    font-family:'Courier New', Courier, monospace;
+}
+p {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+li {
+    color: white;
+}
+
+.tom {
+    background-color: rgb(184, 233, 136);
+    width: 300px;
+    size: 25px;
+}
+a{
+    color: blue;
+
+}
+
+/* this is a css commment */
+
+.box {
+    background-image: url(../images/marvingthemartian.svg);
+    
+    
+    width: 400px;
+    margin: 350px 250px;
+    border: 50px 100px;
+    border-style:groove;
+   border-color: aqua;
+   border-left-color: greenyellow;
+   border-top-color:springgreen;
+   padding: 100px 50px 600px 20px; 
+   background-repeat: no-repeat;
+   background-size:cover
+    
+} 
+/* padding & border  top right bottom left */
+
+
+a:hover,
+a:focus{
+    color: red;
+}
+/* a tags must be in this order .link,visted.hover.*/
